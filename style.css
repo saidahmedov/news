@@ -1,0 +1,192 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Verdana, san-serif;
+}
+header {
+	background: url(image/bg/img.png) no-repeat center;
+	-webkit-background-size: 1200px;
+	background-size: 1200px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-bottom: 10px;
+	margin-top: 50px;
+}
+.container {
+	width: 1200px;
+	margin: auto;
+}
+.logo {
+	position: relative;
+	top: 70px;
+	left: 20px;
+	color: #fe504f;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 32px;
+	text-transform: uppercase;
+	letter-spacing: -1.28px;
+	float: left;
+}
+nav ul {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	list-style: none;
+	justify-content: flex-end;
+}
+nav li {
+	padding-right: 50px;
+	padding-top: 75px;
+}
+nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	color: #ff4f4e;
+	font-weight: 800;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+.news_title {
+	text-align: center;
+	font-size: 60px;
+	font-weight: 800;
+	line-height: 74px;
+	color: #ff4f4e;
+	margin-top: 107px;
+	margin-bottom: 102px;
+}
+.news_content {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.news_image {
+	width: 600px;
+	height: 300px;
+}
+.city_img {
+	background: url(image/img-city/nyc.png) no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+.news_content_text {
+	background: #343434;
+	width: 300px;
+	height: 300px;
+}
+.news_content_title {
+	padding: 30px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #ff4f4e;
+	font-weight: 700;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+.second {
+	width: 200px;
+}
+.data_second {
+	margin-top: 30px;
+}
+.news_content-text {
+	padding: 0 30px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	color: #fff;
+}
+.news_content_data {
+	float: right;
+	padding:  30px;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 20px;
+	color: #fe504f;
+}
+.news_img {
+	width: 300px;
+	height: 300px;
+}
+.nyc_img {
+	background: url(image/img-city/img.png) no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+.room_img {
+	background: url(image/img-city/room.png) no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+.saas_img {
+	background: url(image/img-city/saas.png) no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+.shop_img {
+	background: url(image/img-city/shop.png) no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+.button {
+	width: 370px;
+	height: 60px;
+	margin: auto;
+	background: #343434;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+	padding-top: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.button a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fe504f;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20px;
+}
+footer {
+	width: 1200px;
+	height: 90px;
+	margin: auto;
+	background: #343434;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.footer_text {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	padding: 35px 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.footer_text_one {
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+.footer_social a {
+	text-decoration: none;
+	color: #ff4f4e;
+}
