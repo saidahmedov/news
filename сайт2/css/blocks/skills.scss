@@ -1,0 +1,63 @@
+
+.skills{
+	background-color: $light-gray;
+}
+.skills__content {
+	padding: 160px 0;
+}
+.skills__title {
+	font-size: 2rem;
+	font-weight: 500;
+}
+.skills__item {
+	font-size: .8rem;
+	width: 100%;
+	max-width: 500px;
+	position: relative;
+
+	padding-bottom: 1.5rem;
+	margin-top: 2rem;
+
+	border-bottom: 3px solid #D8D8D8;
+
+	&.design:before {
+		content: "";
+		display: block;
+		width: 75%;
+		height: 3px;
+
+		background-color: $light-green;
+
+		position: absolute;
+		top: 37px;
+		left: 0;
+		z-index: 1;
+	}
+	&.web:before {
+		content: "";
+		display: block;
+		width: 90%;
+		height: 3px;
+
+		background-color: $light-green;
+
+		position: absolute;
+		top: 37.2px;
+		left: 0;
+		z-index: 1;
+
+	}
+	&.marketing:before {
+		content: "";
+		display: block;
+		width: 65%;
+		height: 3px;
+
+		background-color: $light-green;
+
+		position: absolute;
+		top: 37px;
+		left: 0;
+		z-index: 1;
+	}
+}

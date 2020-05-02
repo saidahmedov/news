@@ -1,0 +1,23 @@
+.testimonials {
+	background-color: $light-green;
+	padding: 170px 0; 
+}
+.testimonials__item {
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+	// padding: 50px 20px;
+	color: $white;
+}
+.testimonials__text {
+	font-size: 2rem;
+	font-weight: 500;
+	line-height: 1.8;
+}
+.testimonials__name {
+	font-size: .8rem;
+	margin-top: 15px;
+	font-weight: 500;
+
+}

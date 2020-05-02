@@ -1,0 +1,20 @@
+.intro {
+	background-color: $light-gray;
+}
+.intro__content {
+	margin-left: auto;
+	width: 485px;
+	padding: 200px 0;
+}
+.intro__title {
+	font-size: 2.53rem;
+	color: $black;
+	font-weight: 500;
+	margin-bottom: 1.6rem;
+}
+.intro__text { 
+	font-size: 1.2rem;
+	color: $gray;
+	line-height: 1.8;
+	font-family: 'Nunito Sans', sans-serif;
+}

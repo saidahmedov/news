@@ -1,0 +1,38 @@
+.nav {
+	display: flex;
+	height: 100%;
+}
+.nav__link {
+	font-size: .8rem;
+	color: $black;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-left: 2rem;
+	position: relative;
+
+	transition: color .2s linear;
+
+
+	&:after {
+		content: "";
+		width: 0;
+		height: 2px;
+		background-color: $light-green;
+
+		position: absolute;
+		bottom: -5px;
+		left: 0;
+		z-index: 1;
+
+		transition: width .2s linear;
+
+	}
+
+	&:hover{
+		color: $light-green;
+
+		&:after {
+			width: 100%;
+		}
+	}
+}

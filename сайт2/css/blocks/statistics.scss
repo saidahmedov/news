@@ -1,0 +1,19 @@
+.statistics {
+	background-color: $light-green;
+}
+.stat {
+	display: flex;
+	justify-content: space-between;
+}
+.stat__item {
+	padding: 90px 0;
+	color: $white;
+	font-weight: 500;
+	line-height: 2;
+}
+.stat__number {
+	font-size: 1.2rem;
+}
+.stat__text {
+	font-size: .8rem;
+}

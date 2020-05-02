@@ -1,0 +1,24 @@
+.button {
+	display: inline-block;
+	vertical-align: top;
+	padding: 1.33rem  2.93rem;
+	margin-top: 2.4rem;
+
+	border-radius: 5px;
+	
+	text-transform: uppercase;
+	text-decoration: none;
+	color: $white;
+	font-size: .8rem;
+	font-family: inherit;
+	text-align: center;
+	line-height: 1.1;
+
+	background-color: $light-green;
+	transition: background-color .2s linear, color 2s linear;
+
+	&:hover {
+		background-color: $black;
+		color: $white;
+	}
+}

@@ -1,0 +1,47 @@
+.form__group {
+	display: flex;
+	justify-content: space-between;
+	width: 671px;
+	margin: 0 auto;
+	margin-bottom: 2rem;
+}
+.form__input {
+	padding: 14px 20px;
+
+	border: 0.5px solid #fff;
+	outline: none;
+
+	display: block;
+	width: 100%;
+	max-width: 320px;
+
+	font-size: 1rem;
+	font-family: 'Nunito Sans', sans-serif;
+	color: $gray;
+
+	transition: border .2s linear;
+
+	&:focus {
+		border-color: $light-green; 
+	}
+}
+.form__textarea {
+	width: 100%;
+	height: 170px;
+	resize: none;
+
+	padding: 14px 20px;
+
+	border: 0.5px solid #fff;
+	outline: none;
+
+	font-size: 1rem;
+	font-family: 'Nunito Sans', sans-serif;
+	color: $gray;
+
+	transition: border .2s linear;
+
+	&:focus {
+		border-color: $light-green; 
+	}
+}
